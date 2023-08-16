@@ -1,11 +1,13 @@
-import './App.css';
+import './topnav.css';
+import './maincontent.css'
 
 function App() {
   return (
     <>
-    <img src={require("./home_page_icon.png")} alt="homeIcon" width="38" height="38"></img>
+    
 
     <div class="topnav">
+      <img src={require("./home_page_icon.png")} alt="homeIcon" width="38" height="38"></img>
       <a href="#news">News</a>
       <a href="#contact">Contact</a> 
       <a href="#about">About</a>
@@ -48,6 +50,10 @@ function App() {
         </li>
       </ul>
     </div>
+
+    <footer>
+      <p>Contact Us</p>
+    </footer>
     </>
   );
 }

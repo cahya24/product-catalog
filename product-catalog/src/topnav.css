@@ -3,6 +3,8 @@
   overflow: hidden;
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 /* Style the links inside the navigation bar */
@@ -21,6 +23,7 @@
   border-radius: 10px;
   background-color: #ddd;
   color: black;
+  cursor: pointer;
 }
 
 /* Add a color to the active/current link */
@@ -33,4 +36,9 @@
   color: black;
   margin: 0;
   padding-left: 10px;
+}
+
+.topnav img {
+  padding-left: 25px;
+  padding-right: 100px;
 }

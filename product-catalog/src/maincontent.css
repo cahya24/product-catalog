@@ -1,0 +1,17 @@
+.maincontent ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .maincontent li {
+    align-items: center;
+  }
+  
+  .maincontent img {
+    width: 100px;
+  }
+  
+  .maincontent h1 {
+    font-size: 35px;
+  }
